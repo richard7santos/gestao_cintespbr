@@ -1,0 +1,21 @@
+.fallback {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.bg-home {
+    background-color: #DCDCDC;
+    min-height: 85vh;
+    
+}
+.content-home{
+  background-color: white;
+  min-height: 85vh;
+  
+}
+.space-home{
+  height: 10vh;
+}

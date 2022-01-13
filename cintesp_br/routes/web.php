@@ -7,6 +7,7 @@ Route::get('/', function () {
     return view('home');
 });
 
+
 //rotas usuários
 Route::prefix('usuarios')->group(function(){
     Route::get('/list', 'UsuariosController@list')->name('usuarios.list');
@@ -38,5 +39,5 @@ Route::prefix('compras')->group(function(){
 });
 
 Route::fallback(function(){
-    echo 'Iiii, deu ruim... está página não existe!! <a href="'.route('/').'"> Clique aqui</a>"';
+    return view('fallback');;
 });

@@ -1,4 +1,4 @@
-<nav class="navbar fixed-bottom navbar-dark bg-dark">
+<nav class="navbar navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">GestãoCintesp.br - Todos os direitos reservados</a>
   </div>
